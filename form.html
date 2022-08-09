@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/mainStyle.css">
+    <link rel="stylesheet" href="/styles/formStyle.css">
+    <script src="https://kit.fontawesome.com/bca655c0fd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="images/logo.png" alt="rick morty formulario">
+                <h2>= First Project!</h2>
+            </div>
+            <div class="work-group">
+                <i class="fa-solid fa-people-group"></i>
+                <h2>Work Group</h2>
+            </div>
+            <div class="grupo">
+                <ul>
+                    <li><img src="images/javi.png" alt=""> Javier Huebra</li>
+                    <li><img src="images/mati.png" alt="">Matias Spirilis</li>
+                    <li><img src="images/rolo.png" alt="">Rolando Duarte</li>
+                    <li><img src="images/seba.png" alt="">Sebastián Dalessandro</li>
+                </ul>
+            </div>
+
+
+        </header>
+        <main>
+            <div class="workspace">
+                <div class="alert">
+                    <img src="images/rick.png" alt="">
+                    <div>
+                        <p>Come on, all you have to do is put your name and your email with this @ and a measly message!!</p>
+                        <button id="btn_understand">I try Rick, i try!</button>
+                    </div>
+                    
+                </div>
+                <div class="form">
+                    
+                    <form>
+                        <label>Name:<input autocomplete="off" class="name" type="text" name="nombre"></label>
+
+                        <label>Email:<input autocomplete="off" class="email" type="email" name="Email"></label>
+
+
+                        <textarea autocomplete="off" class="message" cols="30" rows="10"
+                            placeholder="Plot in the dom your msg!" required></textarea>
+
+                        <input class="btn-submit" type="button" value="Plot in DOM!">
+                    </form>
+                </div>
+                <i class="flechita fa-solid fa-share"></i>
+                <div class="visual-form">
+                    <p class="text text-email"></p>
+                    <p class="text text-name"></p>
+                    <p class="text text-msj"></p>
+                    
+                    
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-div footer-1">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Bahía Blanca | Buenos Aires CP: 8000</li>
+                    <li>Javier Emanuel Huebra</li>
+                    <li>Skill Factory | By Avalith</li>
+                </ul>
+            </div>
+
+            <div class="footer-div footer-2">
+                <ul>
+                    <li><i class="fa-brands fa-github"></i>GitHub</li>
+                    <li><i class="fa-brands fa-linkedin"></i>Linkedin</li>
+                    <li><i class="fa-regular fa-envelope"></i>javieremanuelhuebra@gmail.com</li>
+
+                </ul>
+            </div>
+            <img src="images/skill.png" alt="">
+        </footer>
+    </div>
+</body>
+<script src="scripts/formScript.js"></script>
+
+</html>

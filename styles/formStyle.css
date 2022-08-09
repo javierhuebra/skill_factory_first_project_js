@@ -1,0 +1,128 @@
+.workspace{
+    width: 70%;
+    height: 90%;
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 350px;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.486);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 15px black;
+    
+}
+.form form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.form label{
+    display: block;
+    font-weight: 800;
+}
+.visual-form{
+    width: 400px;
+    height: 90%;
+   
+    background-image: url(../images/hoja.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    word-wrap: break-word;
+    position: relative;
+    filter: drop-shadow(0px 0px 15px black);
+}
+.name,.email,.message{
+    outline: none;
+    font-size: 15px;
+}
+.name,.email{
+    height: 35px;
+}
+.message{
+    height: 250px;
+}
+.name{
+    width: 100px;
+}
+.btn-submit{
+    height: 45px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--color-secundary);
+}
+.flechita{
+    margin: 0px 40px 0px 80px;
+    font-size: 90px;
+    color: var(--color-secundary);
+    text-shadow: 0px 0px 15px black;
+}
+.text{
+    position: absolute;
+    font-family: 'Fasthand', cursive;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+.text-msj{
+    top: 30%;
+    width: 280px;
+    right: 15%;
+}
+
+.text-name{
+    bottom: 10%;
+    right: 18%;
+}
+
+.text-email{
+    top: 15%;
+    left: 8%;
+    transform: rotatez(-6deg);
+}
+.alert{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 150;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.alert div{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.alert button{
+    font-size: 25px;
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--color-secundary);
+    color: white;
+}
+.alert p{
+    background-color: rgba(0, 0, 0, 0.377);
+}

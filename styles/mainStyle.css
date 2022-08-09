@@ -5,7 +5,7 @@
 }
 :root{
     --color-base:#060F5C;
-    --color-primary:#22285cb4;
+    --color-primary:#22285c1e;
     --color-secundary:#5362E1;
 }
 body{
@@ -54,7 +54,7 @@ header img{
     
 }
 header .work-group i{
-    margin-right: 180px;
+    
     font-size: 30px;
 }
 .grupo{
@@ -118,7 +118,7 @@ main{
 .slider{
     width: 90%;
     height: 100%;
-    background-color: azure;
+    
     overflow: hidden;
     
     position: relative;
@@ -151,7 +151,7 @@ main{
     
 }
 .formulario-img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.568)),url(../images/formulario.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.747)),url(../images/formulario.jpg); 
     background-position: center;
     background-size: cover;
 }
@@ -165,7 +165,7 @@ main{
     background-position: center;
     background-size: cover;
 }
-.fa-solid{
+.arrow-left,.arrow-right{
     position: absolute;
     color: var(--color-secundary);
 }
@@ -192,13 +192,17 @@ main{
     height: 80%;
     border-radius: 20px;
     padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
 }
 .btn{
-    width: 30%;
-    height: 15%;
+    width: 225px;
+    height: 90px;
     font-size: 30px;
-    border-radius: 10px;
+    
     border: none;
     box-shadow: 0px 0px 15px black;
     color: white;
@@ -256,4 +260,24 @@ footer{
 }
 .footer-div ul i{
     margin: 0px;
+}
+.form-images{
+    display: flex;
+    justify-content: center;
+}
+.form-images img{
+    width: 350px;
+}
+.slider h2{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.users-images img{
+    width: 360px;
+    height: 200px;
+}
+.users-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

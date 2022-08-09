@@ -20,3 +20,4 @@ arrowLeft.addEventListener("click",()=>{
     document.querySelector(".slider-items").style.left=`${pos[i]}%`
     document.querySelector(`.circle${i+1}`).style.opacity='1';
 });
+
