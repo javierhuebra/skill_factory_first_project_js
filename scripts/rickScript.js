@@ -24,11 +24,11 @@ makeRequest(i);
             <div class='card'>
                 <img src='${character.image}'>
                 <div>
-                    <p>Name: ${character.name}</p>
-                    <p>ID: ${character.id}</p>
-                    <p>Species: ${character.species}</p>
-                    <p>Origin: ${character.origin.name}</p>
-                    <p>Status: ${character.status}</p>
+                    <p class="name-card">${character.name}</p>
+                    <p><span class="data-card">ID:</span> ${character.id}</p>
+                    <p><span class="data-card">Species:</span> ${character.species}</p>
+                    <p><span class="data-card">Origin:</span> ${character.origin.name}</p>
+                    <p><span class="data-card">Status:</span> <span class="${character.status=='Alive' ? 'green' : 'red'}${character.status=='unknown' ? 'unknown' : ''}">${character.status}<span></p>
                 </div>
 
             </div>

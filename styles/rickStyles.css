@@ -43,7 +43,7 @@ main{
 
 }
 #cards {
-    
+    margin-top: 20px;
     width: 65%;
     
 
@@ -67,14 +67,52 @@ main{
     margin-bottom: 15px;
     padding: 20px 0px;
 
-    border-radius: 15px;
     border: 5px solid rgb(202, 255, 95);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.479);
 }
 .card img{
     width: 200px;
-    border-radius: 10px;
+    
+    margin-bottom: 10px;
 }
 .card div{
     width: 200px;
     text-align: left;
+}
+.name-card{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(202, 255, 95);
+}
+.data-card{
+    color: rgb(202, 255, 95);
+}
+.green{
+    color: green;
+    background-color: rgb(146, 255, 170);
+    padding: 0px 5px;
+}
+.red{
+    color: red;
+    background-color: white;
+    padding: 0px 5px;
+}
+
+.redunknown{
+    background-color: white;
+    color: black;
+    padding: 0px 5px;
+}
+#load-btn{
+    width: 200px;
+    height: 40px;
+    font-weight: 800;
+    margin: 40px;
+    border: 5px solid rgb(202, 255, 95);
+    box-shadow: 0px 0px 15px black;
+}
+#load-btn i{
+    margin-left: 5px;
+    font-size: 18px;
 }
