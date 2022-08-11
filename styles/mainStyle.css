@@ -32,7 +32,7 @@ header{
 header div{
     height: 90%;
     
-    border-radius: 10px;
+    
     margin-left: 10px;
 
     display: flex;
@@ -44,14 +44,22 @@ header img{
     height: 100%;
 }
 .work-group{
-    background-color: transparent;
+    background-color: var(--color-secundary);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-right: 15px;
-    color: var(--color-secundary);
+    height: 50px;
+    padding: 0px 50px 0px 25px;
+    color: rgba(255, 255, 255, 0.685);
+    border: 3px solid rgba(255, 255, 255, 0.589);
+    border-radius: 50px;
     
+}
+.loguito-header{
+    background-color: rgb(30, 30, 112);
+    padding: 0px 20px;
+    border-radius: 10px;
 }
 header .work-group i{
     
@@ -62,7 +70,7 @@ header .work-group i{
     width: 300px;
     height: 300px;
     background-color: var(--color-base);
-    right: -20%;
+    right: -300px;
     top: 100%;
     z-index: 1;
     border-radius: 0px;
@@ -87,7 +95,11 @@ header .work-group i{
    justify-content: flex-start;
    align-items: center;
 }
-.work-group:hover~.grupo{
+.group-container{
+    height: 150px;
+   
+}
+.group-container:hover~.grupo{
     right: 0%;
 }
 .grupo:hover{
@@ -261,6 +273,10 @@ footer{
 .footer-div ul i{
     margin: 0px;
 }
+.footer-div a{
+    color: rgba(255, 255, 255, 0.562);
+    text-decoration: none;
+}
 .form-images{
     display: flex;
     justify-content: center;
@@ -289,4 +305,70 @@ footer{
 }
 .characters-images img{
     width: 300px;
+}
+.cortina{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    z-index: 55;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cortina-data{
+    width: 50%;
+    height: 56%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cortina-data div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px 0px;
+    justify-content: space-around;
+}
+
+.cortina-data img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cortina-data span{
+    color: #5362E1;
+}
+
+#got-btn{
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    
+    font-weight: 600;
+
+    background-color: #5362E1;
+    color:white;
+    border: none;
+}
+
+.grupo li{
+    background-color: var(--color-secundary);
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.555);
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+    
 }

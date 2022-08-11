@@ -11,12 +11,12 @@ fetch(URL_USERS) // Infiere en que el pedido es un GET
         console.log(user);
          elementUser += `
          <div class='user'>
-            <div>${user.id}</div>
-            <div>${user.name}</div>
-            <div>${user.email}</div>
-            <div>${user.phone}</div>
-            <div>${user.address.city}</div>
-            <div>${user.company.name}</div>
+            <div class="u-table user-id">${user.id}</div>
+            <div class="u-table">${user.name}</div>
+            <div class="u-table">${user.email}</div>
+            <div class="u-table">${user.phone}</div>
+            <div class="u-table">${user.address.city}</div>
+            <div class="u-table">${user.company.name}</div>
          </div>`;
      }) 
           

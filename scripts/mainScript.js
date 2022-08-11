@@ -21,3 +21,9 @@ arrowLeft.addEventListener("click",()=>{
     document.querySelector(`.circle${i+1}`).style.opacity='1';
 });
 
+/* document.getElementById("got-btn").addEventListener("click",()=>{
+    document.querySelector(".cortina").style.display="none";
+}); */
+document.querySelector(".cortina").addEventListener("click",()=>{
+    document.querySelector(".cortina").style.display="none";
+})

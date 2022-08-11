@@ -43,8 +43,8 @@ main{
     flex-direction: row;
     
 }
-.titles div{
-    width: 16.66%;
+.u-title{
+    width: 18.8%;
     height: 40px;
     border: 1px solid black;
     
@@ -53,18 +53,28 @@ main{
     align-items: center;
     justify-content: center;
 }
+.id-user{
+    width: 6%;
+}
 .user{
     display: flex;
     flex-direction: row;
 }
-.user div{
-    width: 16.66%;
+.u-table{
+    width: 18.8%;
     border: 1px solid black;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-left: 10px;
 }
 .users-images img{
     width: 10px;
 }
+
+.user-id{
+    justify-content: center;
+    width: 6%;
+}
+
