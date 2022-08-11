@@ -26,4 +26,19 @@ arrowLeft.addEventListener("click",()=>{
 }); */
 document.querySelector(".cortina").addEventListener("click",()=>{
     document.querySelector(".cortina").style.display="none";
-})
+    document.querySelector(".advertising").style.left="40px";
+});
+
+document.querySelector(".x-ads").addEventListener("click",()=>{
+    document.querySelector(".advertising").style.display="none";
+});
+
+
+document.querySelector(".x-ads").addEventListener("mouseover",()=>{
+    document.querySelector(".x-ads").style.color="red";
+    document.querySelector(".x-ads").innerHTML="Press here X";
+    document.querySelector(".x-ads").style.left="0px";
+    
+    
+});
+

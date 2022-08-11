@@ -372,3 +372,28 @@ header a{
     color: rgba(255, 255, 255, 0.76);
     
 }
+
+.advertising{
+    width: 200px;
+    height: 260px;
+    background-color: red;
+    background-image: url(../images/cv_image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    border: 3px solid yellow;
+
+    left: -300px;
+    top: 30%;
+
+    transition: 3s;
+}
+
+.x-ads{
+    position: absolute;
+    right: 0;
+    top: -30px;
+    color: yellow;
+}
