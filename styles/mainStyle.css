@@ -281,3 +281,12 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.characters-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.characters-images img{
+    width: 300px;
+}

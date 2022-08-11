@@ -3,7 +3,8 @@ body{
     background-position: center;
     background-size: contain;
 
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    
 }
 .container{
     height: auto;
@@ -16,11 +17,12 @@ body{
 }
 header{
     height: 100px;
+    width: 100vw;
     background-color: var(--color-base);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     z-index: 10;
     
     
@@ -42,14 +44,18 @@ main{
     
 
 }
-#cards {
-    margin-top: 20px;
+#cards{
+
+    
+    margin-top: 130px;
     width: 65%;
     
-
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    
     
 }
 
