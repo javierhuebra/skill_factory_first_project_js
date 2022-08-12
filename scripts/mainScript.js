@@ -27,10 +27,14 @@ arrowLeft.addEventListener("click",()=>{
 document.querySelector(".cortina").addEventListener("click",()=>{
     document.querySelector(".cortina").style.display="none";
     document.querySelector(".advertising").style.left="40px";
+    document.querySelector(".cont-adv2").style.right="70px";
 });
 
 document.querySelector(".x-ads").addEventListener("click",()=>{
     document.querySelector(".advertising").style.display="none";
+});
+document.querySelector(".p-ad2").addEventListener("click",()=>{
+    document.querySelector(".cont-adv2").style.display="none";
 });
 
 
