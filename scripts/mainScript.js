@@ -1,5 +1,5 @@
 "use strict"
-let pos=[0,-100,-200];
+let pos=[-200,-100,0];
 
 let arrowLeft=document.querySelector(".arrow-left");
 let arrowRight=document.querySelector(".arrow-right");
