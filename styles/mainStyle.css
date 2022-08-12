@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
     --color-base:#060F5C;
     --color-primary:#22285c1e;
@@ -14,6 +15,8 @@ body{
     background-size: cover;
     position: relative;
     overflow: hidden;
+    
+    
 }
 .container{
     width: 100vw;
@@ -378,7 +381,7 @@ header a{
 .advertising{
     width: 200px;
     height: 260px;
-    background-color: red;
+   
     background-image: url(../images/cv_image.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -424,4 +427,23 @@ header a{
     
    
     
+}
+.probando{
+    opacity: 0;
+    transition: 0.5s;
+}
+.img-carga{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-weight: 700;
+
+    text-shadow: 0px 0px 10px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

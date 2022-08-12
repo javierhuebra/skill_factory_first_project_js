@@ -46,3 +46,9 @@ document.querySelector(".x-ads").addEventListener("mouseover",()=>{
     
 });
 
+window.onload=()=>{
+    document.querySelector(".probando").style.opacity="1";
+    document.querySelector(".img-carga").style.display="none";
+    
+};
+
